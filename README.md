@@ -3,7 +3,7 @@
 Welcome to the repository for my personal portfolio website. This site serves as a digital resume and a showcase of my work as a B.Tech student at CBIT, highlighting my core interests in hardware engineering, robotics, drone flight dynamics, and software development.
 
 ## 🚀 Live Demo
-*(You can add your GitHub Pages link here once deployed, e.g., `https://khushaltibrewalla.github.io/k-portfolio/`)*
+https://khushaltibrewalla.github.io/k-portfolio/
 
 ## 🛠️ Tech Stack
 This portfolio is built with a lightweight, zero-dependency stack to ensure maximum performance and easy customization:
@@ -21,7 +21,7 @@ This portfolio is built with a lightweight, zero-dependency stack to ensure maxi
 To run this project locally, you don't need any complex build tools or servers.
 1.  Clone this repository:
     ```bash
-    git clone [https://github.com/KhushalTibrewalla/k-portfolio](https://github.com/KhushalTibrewalla/k-portfolio)
+    git clone https://github.com/KhushalTibrewalla/k-portfolio
     ```
 2.  Navigate to the project directory:
     ```bash
