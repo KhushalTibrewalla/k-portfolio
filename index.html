@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushal Tibrewalla | Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0b0c10;
+            --surface-color: #1f2833;
+            --text-primary: #c5c6c7;
+            --text-secondary: #8b929a;
+            --accent-color: #66fcf1;
+            --accent-hover: #45a29e;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 6rem 2rem 4rem;
+            border-bottom: 2px solid var(--surface-color);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        header h2 {
+            font-size: 1.2rem;
+            color: var(--accent-color);
+            font-weight: 400;
+            margin-bottom: 2rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        .social-links a {
+            color: var(--text-primary);
+            text-decoration: none;
+            padding: 0.5rem 1.5rem;
+            border: 1px solid var(--accent-color);
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .social-links a:hover {
+            background-color: var(--accent-color);
+            color: var(--bg-color);
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+            color: #ffffff;
+            margin-bottom: 1.5rem;
+            display: inline-block;
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .about-card {
+            background-color: var(--surface-color);
+            padding: 2rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background-color: var(--surface-color);
+            padding: 2rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-card h4 {
+            font-size: 1.3rem;
+            color: #ffffff;
+            margin-bottom: 1rem;
+        }
+
+        .project-card p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tech-tag {
+            background-color: var(--bg-color);
+            color: var(--accent-color);
+            padding: 0.2rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            border: 1px solid var(--accent-hover);
+        }
+
+        .project-link {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 2px solid var(--surface-color);
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+            header h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Khushal Tibrewalla</h1>
+        <h2>B.Tech Student | Hardware & Robotics Enthusiast</h2>
+        <div class="social-links">
+            <a href="mailto:khushaltibrewalla123@gmail.com">Email</a>
+            <a href="https://github.com/KhushalTibrewalla" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/khushal-tibrewalla-61583339b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h3>About Me</h3>
+            <div class="about-grid">
+                <div class="about-card">
+                    <p>I am a first-year B.Tech student studying at Chaitanya Bharathi Institute of Technology (CBIT) in Hyderabad. I am deeply passionate about the intersection of mechanics and technology, with a specific interest in the engineering behind drones and automotive performance. I love building things from scratch and understanding how hardware and software communicate.</p>
+                </div>
+                <div class="about-card">
+                    <h4 style="color: #fff; margin-bottom: 1rem;">Core Interests</h4>
+                    <ul style="list-style-position: inside; color: var(--text-secondary);">
+                        <li>UAVs & Drone Flight Dynamics</li>
+                        <li>Automotive Engineering & Mechanics</li>
+                        <li>Microcontroller Programming</li>
+                        <li>Algorithmic Problem Solving</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h3>Projects</h3>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <h4>Wireless Gesture-Controlled Robot</h4>
+                    <p>Designed and built a robotic vehicle controlled entirely by hand movements. Engineered the communication pipeline between the transmitter (glove) and receiver (car) to ensure zero-latency movement.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Arduino Nano & Uno</span>
+                        <span class="tech-tag">MPU6050</span>
+                        <span class="tech-tag">nRF24L01</span>
+                        <span class="tech-tag">C++</span>
+                    </div>
+                    <a href="https://github.com/KhushalTibrewalla/ardunio-project" class="project-link" target="_blank">View on GitHub &rarr;</a>
+                </div>
+
+                <div class="project-card">
+                    <h4>Data Structures & Algorithms</h4>
+                    <p>Consistently tackling complex algorithmic problems to sharpen logic and optimize code performance. Actively practicing concepts like arrays, sorting algorithms, and dynamic programming.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">Problem Solving</span>
+                        <span class="tech-tag">Competitive Programming</span>
+                    </div>
+                    <a href="https://leetcode.com/u/KhushalTibrewalla/" class="project-link" target="_blank">View LeetCode Profile &rarr;</a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Khushal Tibrewalla. Built for the love of hardware and code.</p>
+    </footer>
+
+</body>
+</html>
